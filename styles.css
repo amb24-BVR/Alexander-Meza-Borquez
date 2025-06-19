@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(205, 203, 201);
+
+}
 #navbar{
 
 display: flex;
@@ -21,4 +25,14 @@ a{
 ul{
     display: flex;
     flex-direction: row;
+}
+
+
+#formulario{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    
+    padding: 20px 20px;
+
 }
