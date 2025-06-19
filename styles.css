@@ -32,7 +32,28 @@ ul{
     background-color: white;
     justify-content: center;
     display: flex;
-    
     padding: 20px 20px;
+    flex-direction: column;
+    margin: 0 650px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+#formulario label{
+    display: flex;
+    margin: 5px 50px;
+    
+}
+#formulario input{
+    display: flex;
+    margin: 1px 50px;
+}
+#boton{
+    display: flex;
+    margin: 5px 150px;
+    justify-content: center;
+    background-color: rgb(26, 172, 240);
+    border: none;
+    font-size: 15px;
+    color: white;
+    padding: 8px 0px;
 }
